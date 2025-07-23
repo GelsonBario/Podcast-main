@@ -1,10 +1,12 @@
 Podcast Manager
 
 Descrição
+
 Um aplicativo estilo Netflix, com o objetivo de centralizar episódios de podcasts em vídeo, organizando-os em seções por categorias. 
 Domínio
 
 O foco do projeto são podcasts disponibilizados em formato de vídeo. 
+
 Funcionalidades
 
 Listar todos os episódios de podcast disponíveis.
@@ -14,9 +16,11 @@ Organizar os episódios em seções baseadas em suas categorias (ex: Saúde, Hum
 Filtrar episódios pelo nome do podcast (ex: Flow, Venus). 
 
 API
+
 A interação com o sistema é feita através de uma API REST que retorna os dados em formato JSON.
 
 Modelo de Dados
+
 Cada episódio de podcast na resposta da API seguirá o seguinte modelo:
 
  ```JSON
