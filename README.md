@@ -19,7 +19,7 @@ A interação com o sistema é feita através de uma API REST que retorna os dad
 Modelo de Dados
 Cada episódio de podcast na resposta da API seguirá o seguinte modelo:
 
- JSON
+ ```JSON
 
  {
   "podcastName": "string",
@@ -28,11 +28,11 @@ Cada episódio de podcast na resposta da API seguirá o seguinte modelo:
   "cover": "string (URL)",
   "link": "string (URL)",
   "categories": ["string"]
-} ```
+} 
   Exemplo de Resposta
   JSON
 
-``` [
+ [
   {
     "podcastName": "flow",
     "episode": "DANIEL LOPES - Flow #449",
@@ -49,16 +49,11 @@ Cada episódio de podcast na resposta da API seguirá o seguinte modelo:
     "link": "https://www.youtube.com/watch?v=LbBNooBc-E8",
     "categories": ["saúde", "humor"]
   }
-] ``` 
+] 
 
 Endpoints
 Método	Endpoint	Descrição
 GET	/api/podcasts	Retorna a lista completa de todos os episódios.
 GET	/api/podcasts?name={nome}	Filtra e retorna os episódios do podcast nome.
 
-Exportar para as Planilhas
-Exemplos de uso:
 
-Listar todos: GET http://localhost:3636/api/podcasts
-
-Filtrar por "flow": GET http://localhost:3636/api/podcasts?name=flow
