@@ -1,0 +1,26 @@
+[
+    {
+      "podcastName": "flow",
+      "episode": "DANIEL LOPES - Flow #449",
+      "videoId": "pThrdd0jyEA",
+      "categories": ["saúde", "esporte", "bodybuilder"]
+    },
+    {
+      "podcastName": "flow",
+      "episode": "DILERA - Flow #375",
+      "videoId": "LbBNooBc-E8",
+      "categories": ["saúde", "humor"]
+    },
+    {
+      "podcastName": "flow",
+      "episode": "Felipão - Flow #514",
+      "videoId": "00000",
+      "categories": ["esporte", "programação"]
+    },
+    {
+      "podcastName": "venus",
+      "episode": "Xuxa",
+      "videoId": "00000",
+      "categories": ["humor"]
+    }
+  ]
