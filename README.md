@@ -19,20 +19,20 @@ A interação com o sistema é feita através de uma API REST que retorna os dad
 Modelo de Dados
 Cada episódio de podcast na resposta da API seguirá o seguinte modelo:
 
-```JSON
+ JSON
 
-{
+ {
   "podcastName": "string",
   "episode": "string",
   "videoId": "string",
   "cover": "string (URL)",
   "link": "string (URL)",
   "categories": ["string"]
-}
-Exemplo de Resposta
-JSON
+} ```
+  Exemplo de Resposta
+  JSON
 
-[
+``` [
   {
     "podcastName": "flow",
     "episode": "DANIEL LOPES - Flow #449",
@@ -49,7 +49,7 @@ JSON
     "link": "https://www.youtube.com/watch?v=LbBNooBc-E8",
     "categories": ["saúde", "humor"]
   }
-]``` 
+] ``` 
 
 Endpoints
 Método	Endpoint	Descrição
